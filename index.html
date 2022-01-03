@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap and CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <nav>
+                <div class="logo"><a href="#">
+                    <img src="assets/images/logo.png" alt="Logo"></a>
+                </div>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="menu-icon">
+                    <img src="assets/images/menu.png" alt="Menu">
+                </div>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="social-icon">
+                <a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/images/youtube.png" alt="Youtube"></a>
+                <a href="#"><img src="assets/images/twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="search">
+                <img src="assets/images/search.png" alt="Search">
+            </div>
+        </div>
+
+        <img src="assets/images/cloud.png" alt="cloud" id="clouds">
+        <img src="assets/images/plane.png" alt="cloud" id="airplane">
+        <div id="hotairballoon">
+            <img src="assets/images/balloon.png" alt="balloon" class="balloon1">
+            <img src="assets/images/balloon.png" alt="balloon" class="balloon2">
+            <img src="assets/images/balloon.png" alt="balloon" class="balloon3">
+        </div>
+
+        <img src="assets/images/pause.png" alt="pause" id="myImg">
+
+    </div>
+
+    <!--JQuery-->
+    <script>
+        var myImg = document.getElementById("myImg");
+
+        myImg.onclick = function(){
+            if(clouds.style.webkitAnimationPlayState == "paused")
+            {
+                clouds.style.webkitAnimationPlayState = "running";
+                airplane.style.webkitAnimationPlayState = "running";
+                hotairballoon.style.webkitAnimationPlayState = "running";
+                myImg.src = "assets/images/pause.png"
+            }
+            else{
+                clouds.style.webkitAnimationPlayState = "paused";
+                airplane.style.webkitAnimationPlayState = "paused";
+                hotairballoon.style.webkitAnimationPlayState = "paused";
+                myImg.src = "assets/images/play.png"
+            }
+        }
+
+    </script>
+</body>
+
+</html>
