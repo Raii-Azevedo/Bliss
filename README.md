@@ -13,12 +13,6 @@ Aqui estão as tecnologias utilizadas nesse projeto:
 - HTML
 - CSS
 - JavaScript
-
- 
-## Services Used
- 
-* Github
- 
  
 ## Links
  
