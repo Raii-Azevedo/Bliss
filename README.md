@@ -18,11 +18,6 @@ Aqui estão as tecnologias utilizadas nesse projeto:
  
   - [Repository] (https://github.com/Raii-Azevedo/Bliss)
 
- 
-## Versão
-- 1.0
-
-
 ## Author
 - RAISSA AZEVEDO
  
