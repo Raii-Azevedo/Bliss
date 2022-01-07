@@ -1,4 +1,3 @@
-
 # Bliss
 - Bliss é um website construido com HTML e CSS animado.
 - Bliss is a website built with animated HTML and CSS.
